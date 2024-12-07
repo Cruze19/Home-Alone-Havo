@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Summon : MonoBehaviour
 {
- public GameObject Santa, block1;
+ public GameObject Santa, block1, fakeKey;
     public Collider collision;
     public bool blocks;
 
@@ -16,6 +16,7 @@ public class Summon : MonoBehaviour
             if(blocks == true)
             {
                 block1.SetActive(true);
+				fakeKey.SetActive(true);
             }
             collision.enabled = false;
         }
