@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class flashlight : MonoBehaviour
 {
-	public GameObject light;
+    public GameObject light;
     public bool toggle;
     public AudioSource toggleSound;
 
@@ -37,4 +37,5 @@ public class flashlight : MonoBehaviour
         }
     }
 }
+
 
